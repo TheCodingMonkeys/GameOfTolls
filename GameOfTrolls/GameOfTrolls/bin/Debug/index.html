@@ -1,0 +1,47 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><LINK REL="SHORTCUT ICON" HREF="lib/icon.png"><title>Game of Trolls turn </title><link rel="stylesheet" href="lib/jquery.mobile-1.2.0.min.css" /><link rel="stylesheet" href="lib/style.css" /><script src="lib/jquery-1.8.2.min.js"></script><script src="lib/jquery.mobile-1.2.0.min.js"></script></head><body><div data-role="page" id="a" data-theme="b"><div data-role="header"  data-theme="b"><h1><a data-icon="arrow-l" href="index.html" data-role="button" data-inline="true" data-theme="c" class="ui-disabled">Back</a>Start Matrix <a data-iconpos="right" data-icon="arrow-r" href="#b" data-role="button" data-inline="true" data-theme="c">Next</a></h1></div><div data-role="content" ><table class="bordered">
+<table class="bordered">
+<tr>
+<th></th>
+<th>0</th>
+<th>1</th>
+</tr>
+<tr>
+<th>0</th>
+<td>1</td><td>2</td></tr>
+<tr>
+<th>1</th>
+<td>3</td><td>4</td></tr>
+</table></div></div>
+<div data-theme="b" data-role="page" id="b">
+<div data-role="header"  data-theme="b"><h1><a data-icon="arrow-l" href="#a" data-role="button" data-inline="true" data-theme="c">Back</a>
+put 1 0<a data-iconpos="right" data-icon="arrow-r" href="#c" data-role="button" data-inline="true" data-theme="c" >Next</a></h1></div><div data-role="content">
+<table class="bordered">
+<tr>
+<th></th>
+<th>0</th>
+<th>1</th>
+</tr>
+<tr>
+<th>0</th>
+<td  >1</td><td  >2</td></tr>
+<tr>
+<th>1</th>
+<td class="plus" >0</td><td  >0</td></tr>
+</table></div></div>
+<div data-theme="b" data-role="page" id="c">
+<div data-role="header"  data-theme="b"><h1><a data-icon="arrow-l" href="#b" data-role="button" data-inline="true" data-theme="c">Back</a>
+take 0 1<a data-iconpos="right" data-icon="arrow-r" href="#d" data-role="button" data-inline="true" data-theme="c" class="ui-disabled" >Next</a></h1></div><div data-role="content">
+<table class="bordered">
+<tr>
+<th></th>
+<th>0</th>
+<th>1</th>
+</tr>
+<tr>
+<th>0</th>
+<td  >0</td><td class="minus" >0</td></tr>
+<tr>
+<th>1</th>
+<td  >0</td><td  >0</td></tr>
+</table></div></div>
+</body></html>
